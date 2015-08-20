@@ -1,8 +1,10 @@
+<?php print_r($_POST); ?>
 <html>
   <head>
     <title>Insert Post</title>
   </head>
 <body>
+  <form method="post">
   <p>
       <input type="text" name="post-title" />
     </p>
@@ -19,5 +21,6 @@
     <p>
       <input type="submit" value="Submit" />
     </p>
+    </form>
 </body>
 </html>
